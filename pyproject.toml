@@ -1,0 +1,29 @@
+[project]
+name = "srag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lucas Leão",email = "heylucasleao@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "statsmodels>=0.14.5,<0.15.0",
+    "pandas>=2.3.1,<3.0.0",
+    "seaborn>=0.13.2,<0.14.0",
+    "scikit-learn>=1.7.1,<2.0.0",
+    "numpy>=2.3.2,<3.0.0",
+    "tqdm>=4.67.1,<5.0.0",
+    "ipykernel>=6.30.0,<7.0.0",
+    "kaleido>0.2.0,<=0.2.1",
+    "plotly>=5.22.0,<5.22.1",
+    "nbformat (>=4.2.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
